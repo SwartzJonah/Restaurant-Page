@@ -32,8 +32,10 @@ export function initialPageLoad() {
     contentDiv.appendChild(steakImage);
 
     const description = document.createElement("p");
-    description.textContent = "Hello Welcome to the amazing restaurant where you can only order milk steak";
+    description.textContent = "Hello! Welcome to the amazing restaurant where you can only order milk steak";
     contentDiv.appendChild(description);
+
+    
 
     
 }
