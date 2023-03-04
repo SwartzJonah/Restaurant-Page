@@ -6,7 +6,7 @@ export function contactPageLoad(){
     contentDiv.replaceChildren();
 
     const fakeperson = document.createElement("img");
-    fakeperson.src = "../dist/assets/fakeperson.jpg";
+    fakeperson.src = "assets/fakeperson.jpg";
     fakeperson.alt = "picture of a faker person";
     contentDiv.appendChild(fakeperson);
 

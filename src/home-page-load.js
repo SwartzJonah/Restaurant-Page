@@ -7,7 +7,7 @@ export function homePageLoad() {
     contentDiv.appendChild(heading);
 
     const steakImage = document.createElement("img");
-    steakImage.src = "../dist/assets/milksteak.jpeg";
+    steakImage.src = "assets/milksteak.jpeg";
     steakImage.alt = "picture of milk steak";
     contentDiv.appendChild(steakImage);
 
